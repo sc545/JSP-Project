@@ -1,0 +1,658 @@
+A:link {color:#b35215; text-decoration:none;}
+A:visited {color:#b35215; text-decoration:none}
+a:hover {text-decoration: none; color: #2e64a7;}
+a:active {text-decoration: none; color: #2e64a7;}
+
+A.classfonts:link {color:white; text-decoration:none;}
+A.classfonts:visited {color:white; text-decoration:none;}
+a.classfonts:hover {text-decoration: none; color: #000000;}
+a.classfonts:active {text-decoration: none; color: #000000;}
+
+A.buyout:link {color:white; text-decoration:none;}
+A.buyout:visited {color:white; text-decoration:none;}
+a.buyout:hover {text-decoration: none; color: #000000;}
+a.buyout:active {text-decoration: none; color: #000000;}
+
+/* 배경이미지 (y축 반복) */ 
+body {
+    background-color: #2e2a28;
+    background-image: url('images/class_repeat_bg.jpg');
+    background-repeat: repeat-y;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 상단바 배경 (검은색) */ 
+#navBarBGRepeat {
+    width: 100%;
+    height: 58px;
+    position: relative;
+    background-color: #110F0F;
+}
+
+
+/* 상단바 이미지 */ 
+#navBarBG {
+    width: 100%;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('images/nav_bar.png');
+    text-align: center;
+}
+
+/* 상단바 총 공간 */ 
+
+#navBar {
+    width: 938px;
+    height: 100px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* 상단바 영역 속성(탑마긴 15) */ 
+
+#navBar .navBarItem {
+    position: relative;
+    display: inline-block;
+    margin: 15px 17px 0 -11px;
+    vertical-align: middle;
+    padding-top: 0;
+}
+
+
+/* 상단바 로그인 영역 속성(탑마긴 15 좌측마긴 50) */ 
+
+#navBar .navBarlogIn {
+    position: absolute;
+    margin: 15px 0px 0px 50px;
+}
+
+
+/* 상단바 아래 컨테이너 시작 */ 
+
+#pageContainer {
+    background-image: url('images/class_top_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    min-height: 600px;
+}
+
+/* 내용 시작! */
+
+#centerBox {
+    width: 984px;
+    margin: auto;
+    text-align: left;
+}
+
+/* 회원가입 유도 영역 속성 */
+
+#accountNow {
+  position : absolute;
+  background-image: url('images/accountlogo.png');
+   background-repeat: no-repeat;
+  width:171px;
+  height:260px;
+  text-align:center;
+  z-index:666;
+    font-size: 18px;
+    text-align: center;
+    color: #c1c1bf;
+    top:150px;
+    left:20px;
+}
+
+
+/*가운데 그림 영역 */
+
+
+#classSel {
+    height: 336px;
+    width: 984px;
+    position: relative;
+    overflow: visible;
+}
+
+
+/*번쩍하려면 있어야함 */
+
+#transparentMapper {
+    z-index:50;
+}
+
+.charOnImage {
+	position:absolute;
+	display:none;
+	z-index:40;
+
+}
+
+#charDemoman {
+	width:140px;
+	height:284px;
+	top:4px;
+	left:0px;
+}
+#charSniper {
+	width:153px;
+	height:306px;
+	top:0px;
+	left:91px;
+}
+#charMedic {
+	width:154px;
+	height:290px;
+	top:20px;
+	left:191px;
+}
+#charScout {
+	width:121px;
+	height:297px;
+	top:20px;
+	left:294px;
+}
+#charHeavy {
+	width:212px;
+	height:330px;
+	top:4px;
+	left:390px;
+}
+#charPyro {
+	width:176px;
+	height:306px;
+	top:13px;
+	left:556px;
+}
+#charEngineer {
+	width:158px;
+	height:305px;
+	top:11px;
+	left:658px;
+}
+#charSpy {
+	width:111px;
+	height:298px;
+	top:11px;
+	left:747px;
+}
+#charSoldier {
+	width:155px;
+	height:285px;
+	top:9px;
+	left:829px;
+}
+
+#headerCharsBGImg {
+    height: 336px;
+    width: 984px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+}
+
+/* 클래스를 선택하세요! 요거 */
+.classfont {
+    font-size: -webkit-xxx-large;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+/* 컨텐트영역 위 헤더이미지 */
+
+#headerImage {
+    position: relative;
+    width: 984px;
+    height: 103px;
+    background-image: url('images/class_header.png');
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+
+/* 헤더이미지 위에 떠있는 메뉴 속성 */
+
+#menu {
+position:absolute;
+left:550px;
+top:50px;
+font-size:30px;
+}
+
+/* 컨텐트영역 */
+
+#contentMain {
+    background-image: url('images/blog_2col_bg.png');
+    background-repeat: repeat-y;
+    width: 984px;
+    position: relative;
+}
+
+
+/* 일반컨텐츠 영역 (패딩 90) */
+
+#content {
+    padding: 90px
+}
+
+/* 좌측 컨텐츠(공지) */
+
+
+#leftContent {
+    width: 560px;
+    padding-left: 60px
+}
+
+/* 우측 컨텐츠(배너, 테이블) */
+
+#rightContent {
+    position: absolute;
+    width: 300px;
+    top: 0px;
+    right: 55px;
+}
+
+
+
+#banner {
+width:298px;
+height:155px;
+}
+
+#banner a{
+position:absolute;
+background-image: url('images/workshop.png');
+left:3px;
+}
+
+#banner a:hover {
+background-position-y:155px;
+}
+
+
+
+#banner {
+width:298px;
+height:155px;
+}
+
+#banner a{
+position:absolute;
+background-image: url('images/workshop.png');
+left:3px;
+}
+
+#banner a:hover {
+background-position-y:155px;
+}
+
+#banner2 {
+width:298px;
+height:155px;
+margin-top:5px;
+}
+
+#banner2 a{
+position:absolute;
+background-image: url('images/wiki.png');
+left:3px;
+}
+
+#banner2 a:hover {
+background-position-y:155px;
+}
+#banner3 {
+position:relative;
+left:3px;
+z-index:10px;
+}
+
+
+
+
+/*이전 공지사항 보기*/
+#navolder {
+   padding:5px;
+   text-align:left;
+}
+/*다음 공지사항 보기*/
+
+#navLink {
+positon:relative;
+
+}
+#navNewer {
+   float:right;
+   text-align:right;
+}
+#navOlder {
+   text-align:left;
+}
+
+
+/* 인포 페이지 */
+
+
+
+/* 만들다 만 속성 */
+
+#headtext{
+position:absolute;
+left:740px;
+top:50px;
+font-size:36px;
+font-weight:bold;
+}
+
+
+/* 동영상 영역 배경 */
+
+#movieCard{
+    position: relative;
+    width: 984px;
+    height: 644px;
+    background-image: url('images/class_movie_bg1.png');
+    background-position: top center;
+    background-repeat: repeat-y;
+}
+
+/*동영상 영역 배경2 */
+
+#movieBG {
+    position: absolute;
+    width: 900px;
+    height: 644px;
+    top: 0px;
+    left: 42px;
+    z-index: 10;
+    background-image: url('images/class_movie_bg2.jpg');
+}
+
+
+/*동영상 속성 */
+
+#movieYoutubeIframe {
+    width: 854px;
+    height: 510px;
+    border: none;
+    position: absolute;
+    top: 87px;
+    left: 24px;
+    z-index: 999;
+}
+
+
+/*소개 폰트(사이즈30) */
+
+#introfont {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #c1c1bf;
+}
+
+
+
+/*인포 컨텐츠 배경 */
+
+
+#intromain {
+    background-image: url('images/normal_bg.png');
+    background-repeat: repeat-y;
+    width: 984px;
+    min-height:600px;
+    position: relative;
+}
+
+
+/*인포 글씨 영역 */
+
+#contentfont {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+}
+
+
+/* 클래스 페이지 */
+
+#classBanner {
+    width: 984px;
+    height: 103px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* 상단 셀렉터 */
+#selector {
+    position: absolute;
+    top: 40px;
+    left: 490px;
+    width: 438px;
+    height: 59px;
+    background-image: url('images/selecter.png');
+    background-repeat: no-repeat;
+    z-index: 900;
+}
+
+#selector2 {
+    position: absolute;
+    left:15px;
+}
+.classSelectorLink{
+	display:block;
+	float:left;
+}
+.classSelectorSelected {
+	display:block;
+	float:left;
+	margin-top:-13px;
+}
+
+
+#classCard {
+    width: 984px;
+    height: 623px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 10;
+}
+#classsniper {
+	background-image:url('images/class_card_sniper.jpg');
+}
+#classmedic {
+	background-image:url('images/class_card_medic.jpg');
+}
+#classdemoman {
+	background-image:url('images/class_card_demoman.jpg');
+}
+#classheavy {
+	background-image:url('images/class_card_heavy.jpg');
+}
+#classscout {
+	background-image:url('images/class_card_scout.jpg');
+}
+#classpyro {
+	background-image:url('images/class_card_pyro.jpg');
+}
+#classengineer {
+	background-image:url('images/class_card_engineer.jpg');
+}
+#classspy {
+	background-image:url('images/class_card_spy.jpg');
+}
+#classsoldier {
+	background-image:url('images/class_card_soldier.jpg');
+}
+
+
+#classSay {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    width: 450px;
+    color: #46423d;
+}
+
+
+#classBioText {
+    position: absolute;
+    top: 380px;
+    left: 80px;
+    width: 450px;
+}
+
+#classBuyButton {
+   position: absolute;
+   top: 80px;
+   left:600px;
+    background: url(images/buybutton.png) no-repeat;
+    display: block;
+    width:220px;
+    height:85px;
+    color:white;
+    font-size:38pt;
+    text-align:center;
+    padding-top:18px;
+
+}
+
+
+#classArsenal {
+    position: relative;
+    width: 984px;
+    height: 403px;
+    background-image: url('images/class_arsenal_bg1.png');
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+#classArsenalCard {
+    position: absolute;
+    width: 888px;
+    height: 403px;
+    top: 0px;
+    left: 48px;
+    z-index: 10;
+}
+
+#classItemBuy {
+    position: relative;
+    width: 984px;
+    min-height: 403px;
+    background-image: url('images/class_arsenal_bg1.png');
+    background-repeat: repeat-y;
+    background-position: center;
+}
+#classItemBuyCard {
+   padding:40px;
+
+}
+#defaultitemlist {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #c1c1bf;
+}
+
+
+
+/* 푸터 영역 */
+
+
+/*푸터 백그라운드 */
+
+#centerFooter {
+    background-image: url('images/sp_bottom_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    height: 218px;
+}
+
+/*푸터 공간 */
+
+#footerContainer {
+    width: 984px;
+    height: 52px;
+    margin: auto;
+    text-align: left;
+}
+
+#ToTopLink {
+    position: absolute;
+    width: 25px;
+    height: 138px;
+    left: 165px;
+    bottom: -70%;
+    z-index: 999;
+}
+
+
+/* 폰트잼 */
+
+
+
+/* 돋움 */
+
+h2 {
+	font-family: 맑은고딕;
+	color:red;
+}
+
+h1 {
+	font-family: 굴림;
+	color:red;
+	font-size:45px;
+}
+
+/* 굵어 */
+
+#fontsizeB {
+	font-weight:bold;
+}
+
+
+/* 작아 */
+
+#fontsize1 {
+	font-size:10pt;
+}
+
+
+#titlefont {
+	font-size:44pt;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:30px;
+}
+#titlefont2 {
+	font-size:32pt;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5px;
+}
+#titlefont3 {
+	font-size:24pt;
+	font-weight:bold;
+	text-align:left;
+	color:#3f4140;
+	line-height:36px;
+}
+
+#contentstext {
+	font-size:15pt;
+	text-align:left;
+	width:"560px";
+}
+
+
